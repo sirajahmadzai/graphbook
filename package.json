@@ -14,11 +14,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-http": "^1.5.15",
+    "apollo-resolvers": "^1.4.1",
+    "apollo-server": "^2.9.0",
+    "apollo-server-express": "^2.9.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "graphql": "^14.5.3",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.5",
+    "helmet": "^3.20.0",
     "nodemon": "^1.19.1",
     "react": "^16.8.6",
+    "react-apollo": "^3.0.1",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-resolver": "^3.1.2",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
